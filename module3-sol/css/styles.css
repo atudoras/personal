@@ -1,0 +1,56 @@
+*{
+	font-family: "Oxygen",serif;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+#header-nav{
+	background-color: #cc0000;
+	border: 1px #800000;
+}
+
+.navbar-brand {
+	text-align: left;
+}
+
+.navbar-brand a{
+	color: #ffffff;
+
+	line-height: .75;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#collapsable-nav{
+	background-color: #002b80;
+	border: 1px #001a4d;
+}
+
+#collapsable-nav li{
+	color: #ffffff;
+}
+
+li {
+	color: #ffffff;
+	margin: 10px;
+	text-align: center;
+}
+
+ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#tall-section{
+	background-color: #b3d9ff;
+	height: 1000px;
+}
+
+#main-content div{
+	margin-right: 0.25%;
+	margin-left: 0.25%;
+	margin-top: 25px;
+}
