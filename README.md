@@ -1,2 +1,2 @@
 # personal
-Personal Website on Development 
+Personal Website under development 
