@@ -1,0 +1,60 @@
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  text-align: left;
+}
+
+.navbar-brand a{
+
+  line-height: .75;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+body {
+  font-family: Oxygen, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav a:hover, header nav a:focus{
+  text-decoration: none;
+}
+
+header nav ul li {
+  display: inline
+}
+
+header li {
+  margin: 10px;
+  text-align: center;
+}
+
+header ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#nav-list a {
+  text-align: center;
+}
+
+body > section {
+  margin: 20px;
+}
+

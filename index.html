@@ -1,19 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My Personal Website</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 </head>
 <body>
+  
   <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#publications">Publications</a></li>
-        <li><a href="#cv">CV</a></li>
-      </ul>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <!--<div class="navbar-brand">
+            <a href="index.html" class="pull-left">
+                   <h4> &Agrave </h4>
+            </a>
+          </div>-->
+
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div>
+          <div class="collapse navbar-collapse" id="collapsable-nav" >
+            <ul class="nav navbar-nav navbar-right" id="nav-list">
+              <li><a href="#about" class="active"><span><br class="hidden-xs"></span>About</a></li>
+              <li><a href="#skills"><span><br></span>Skills</a></li>
+              <li><a href="#projects"><span><br class="hidden-xs"></span>Projects</a></li>
+              <li><a href="#publications"><span><br class="hidden-xs"></span>Publications</a></li>
+              <li><a href="#cv"><span><br class="hidden-xs"></span>CV</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </nav>
   </header>
   <section id="about">
@@ -53,5 +80,8 @@
     <p>Copyright &#169 2023 &Agravelex Tudoras</p>
   </footer>
   <script type="text/javascript" src="script.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
